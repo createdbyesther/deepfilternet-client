@@ -19,5 +19,5 @@ Once completed, the container will return the file and save it in the current di
 
 Run the following:
 ```
-python cient.py
+python client.py
 ```
