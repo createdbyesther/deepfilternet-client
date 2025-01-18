@@ -21,3 +21,9 @@ Run the following:
 ```
 python client.py
 ```
+### API Call
+In order to perform a POST request with `audio_file` as an input, you can run the following curl command:
+```
+curl -X POST -F "audio_file=@/ABSOLUTE/FILE/PATH/TO/AUDIO_FILE" http://localhost:8000/audio/process_audio/
+```
+This should save the audio file from the server.
